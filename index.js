@@ -9,6 +9,11 @@ dotenv.config({path: './config.env'})
 
 const port = process.env.PORT || 3000
 
+// Dev Logging
+if(process.env.NODE_env === 'development') {
+    app.use(morgan('dev'))
+}
+
 // Profile route
 app.use('/api/v1/profile', require('./routes/profile'))
 
