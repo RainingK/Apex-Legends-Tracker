@@ -1,6 +1,7 @@
 # Apex-Legends-Tracker
-A stats tracker for the game apex legends.
+A stats tracker for the game apex legends. Gets you all the important stats related to the player that you want to search for and displays them to you.
 
+## How To Run.
 Use npm run dev to run the backend and frontend server together.
 
-#### To push to heroku do 'git push heroku master' after you login.
+#### Note: You need an API Key to run the to get the stat information from the API.
